@@ -10,14 +10,14 @@ codirector, % Uncomment to add a codirector to the title page
 \titulo{Título del proyecto} 
 
 % Nombre del posgrado, se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \degreename
-\posgrado{Carrera de Especialización en Sistemas Embebidos} 
+%\posgrado{Carrera de Especialización en Sistemas Embebidos} 
 %\posgrado{Carrera de Especialización en Internet de las Cosas} 
-%\posgrado{Carrera de Especialización en Intelegencia Artificial}
+\posgrado{Carrera de Especialización en Intelegencia Artificial}
 %\posgrado{Maestría en Sistemas Embebidos} 
 %\posgrado{Maestría en Internet de las cosas}
 
 % Tu nombre, se puede usar el cualquier lugar del documento con el comando \authorname
-\autor{Nombre del Autor} 
+\autor{Fernando Monzon} 
 
 % El nombre del director y co-director, se puede usar el cualquier lugar del documento con el comando \supname y \cosupname y \pertesupname y \pertecosupname
 \director{Nombre del Director}
@@ -27,8 +27,8 @@ codirector, % Uncomment to add a codirector to the title page
 \pertenenciaCoDirector{FIUBA}
 
 % Nombre del cliente, quien va a aprobar los resultados del proyecto, se puede usar con el comando \clientename y \empclientename
-\cliente{Nombre del cliente}
-\empresaCliente{Empresa del cliente}
+\cliente{Prominente S.A.}
+\empresaCliente{Prominente S.A.}
 
 % Nombre y pertenencia de los jurados, se pueden usar el cualquier lugar del documento con el comando \jurunoname, \jurdosname y \jurtresname y \perteunoname, \pertedosname y \pertetresname.
 \juradoUno{Nombre y Apellido (1)}
@@ -38,9 +38,9 @@ codirector, % Uncomment to add a codirector to the title page
 \juradoTres{Nombre y Apellido (3)}
 \pertenenciaJurTres{pertenencia (3)}
  
-\fechaINICIO{30 de abril de 2021}		%Fecha de inicio de la cursada de GdP \fechaInicioName
-\fechaFINALPlan{18 de junio de 2021} 	%Fecha de final de cursada de GdP
-\fechaFINALTrabajo{15 de mayo de 2022}	%Fecha de defensa pública del trabajo final
+\fechaINICIO{22 de agosto de 2023}		%Fecha de inicio de la cursada de GdP \fechaInicioName
+\fechaFINALPlan{15 de octubre de 2023} 	%Fecha de final de cursada de GdP
+\fechaFINALTrabajo{15 de mayo de 2024}	%Fecha de defensa pública del trabajo final
 
 
 \begin{document}
@@ -92,7 +92,7 @@ Buenos Aires, \fechaInicioName
 
 \vspace{2cm}
 
-Por medio de la presente se acuerda con el Ing. \authorname\hspace{1px} que su Trabajo Final de la \degreename\hspace{1px} se titulará ``\ttitle'', consistirá esencialmente en \textcolor{red}{la implementación de un prototipo de un sistema de control de temperatura de un calefón}, y tendrá un presupuesto preliminar estimado de \textcolor{red}{600} h de trabajo y \textcolor{red}{\$XXX}, con fecha de inicio \fechaInicioName\hspace{1px} y fecha de presentación pública \fechaFinalName.
+Por medio de la presente se acuerda con el Ing. \authorname\hspace{1px} que su Trabajo Final de la \degreename\hspace{1px} se titulará ``\ttitle'', consistirá esencialmente en \textcolor{red}{la implementación de un sistema de detección de infracciones por medio de Visión Artificial}, y tendrá un presupuesto preliminar estimado de \textcolor{red}{600} h de trabajo y \textcolor{red}{\$1 000 000}, con fecha de inicio \fechaInicioName\hspace{1px} y fecha de presentación pública \fechaFinalName.
 
 Se adjunta a esta acta la planificación inicial.
 
@@ -115,40 +115,21 @@ Se adjunta a esta acta la planificación inicial.
 \section{1. Descripción técnica-conceptual del proyecto a realizar}
 \label{sec:descripcion}
 
+En un mundo cada vez más interconectado y en constante movimiento, la seguridad y el cumplimiento normativo se convierten en aspectos cruciales. Sin embargo, la detección y prevención de infracciones en tiempo real presentan desafíos significativos. En la actualidad la detección de infracciones se apoya en soluciones fragmentadas y enfoques que a menudo carecen de la precisión y adaptabilidad requeridas para los entornos modernos. Esta fragmentación puede llevar a varios problemas, como la falta de sincronización entre los diferentes componentes, redundancias en el procesamiento de datos y la dificultad para obtener una resolución acorde a la situación. En contraste, una solución integral buscaría unificar estos componentes y enfoques en un solo sistema coherente, lo que a menudo resulta en una mayor eficiencia, precisión y facilidad de uso.
 
-\begin{consigna}{red} % El bloque "consigna" se usa para poner texto en rojo y dar una pequeña ayuda sobre cómo completar la sección. En cada entrega parcial deben eliminar los comandos begin y end del bloque consigna de las secciones que hayan completado.
+Esta iniciativa busca revolucionar el enfoque convencional en la detección de infracciones vehiculares, abordando los desafíos actuales que enfrentan las empresas y el Estado al ejecutar este proceso de manera manual.
 
-El objetivo es que el lector en una o dos páginas entienda de qué trata el proyecto y cuáles son sus desafíos, cuál es la motivación para realizarlo y su importancia.
+En la actualidad, el proyecto se encuentra en la fase de desarrollo, habiendo completado exitosamente una prueba de concepto que demostró la factibilidad técnica de la solución. Esta fase impulsa la creación de un sistema integral de detección de infracciones vehiculares basado en la tecnología de Visión Artificial y seguimiento de objetos.
 
-Se debe introducir el contexto del proyecto, el estado del arte en la temática, describir la propuesta de valor, cúal es el problema que atiende y cuál es la solución que se propone. Se debe dar una descripción funcional de la solución que incluya un diagrama en bloques.
+La propuesta de valor radica en la introducción de un sistema que, a través de la detección y seguimiento avanzados de vehículos, ofrece una identificación precisa de aquellos en infracción, optimizando así el proceso y los recursos involucrados.
 
-Puede ser útil incluir en esta sección la respuesta a alguna de estas preguntas:
+La importancia de este proyecto radica en su capacidad para acelerar y mejorar drásticamente la detección y ejecución de infracciones vehiculares. Actualmente, se depende en gran medida de la revisión manual de videos y la extracción de fotos, un proceso intensivo en mano de obra y propenso a errores. La solución se presenta como una alternativa tecnológica innovadora que reduce costos, minimiza el error humano y optimiza la gestión del tráfico y la seguridad vial.
 
-\begin{itemize}
-	\item ¿Cuál es el contexto del proyecto, es un emprendimiento personal, un proyecto para una empresa, es parte del programa de vinculación con empresas del posgrado?
-	\item ¿Existen o aplican condiciones especiales al proyecto, financiamiento de algún programa público o privado, acuerdos de confidencialidad, acuerdos sobre la propiedad intelectual de los entregables u otros?
-	\item ¿Cómo se compara la solución propuesta con el estado del arte en el campo de aplicación? ¿En qué aspectos destaca?
-	\item ¿Ayuda a la explicación si se incluye un lienzo Canvas del Modelo de Negocio?
-	\item ¿En qué estado del ciclo de vida está la solución que se propone?
-	\item ¿Cuáles son las características del cliente (el adoptante de los entregables del proyecto) qué valora, qué necesita?
-	\item ¿Por dónde pasa la innovación?
-\end{itemize}
+Este proyecto representa un hito significativo en la búsqueda de soluciones inteligentes para mejorar la eficiencia y la seguridad en el ámbito de la detección de infracciones vehiculares. Aprovechando la tecnología de Visión Artificial y el seguimiento de objetos, se está creando una solución integral que promete cambiar la forma en que las empresas y el Estado gestionan esta importante tarea, ahorrando recursos y mejorando la seguridad en las carreteras.
 
-La descripción técnica-conceptual \textbf{debe incluir al menos un diagrama en bloques del sistema} y descripción funcional de la solución propuesta.
+La figura 1 es un lienzo Canvas que proporciona una descripción general de la estrategia del proyecto, centrándose en cómo la solución integral aporta valor al cliente y cuáles son los recursos clave y actividades necesarias para su implementación.
 
-Las figuras se deben mencionar en el texto ANTES de que aparezcan con una frase como la siguiente: ``En la Figura \ref{fig:diagBloques} se presenta el diagrama en bloques del sistema. Se observa que...''.  La regla es que las figuras nunca pueden ir antes de ser mencionadas en el texto, porque sino el lector no entiende por qué de pronto aparece una figura.
-
-\begin{figure}[htpb]
-\centering 
-\includegraphics[width=.5\textwidth]{./Figuras/diagBloques.png}
-\caption{Diagrama en bloques del sistema}
-\label{fig:diagBloques}
-\end{figure}
-
-\vspace{25px}
-
-El tamaño de la tipografía en TODAS las figuras debe ser adecuado para que NO pase lo que ocurre acá, donde el lector debe esforzarse para poder leer el texto. Los colores usados en el diagrama deben ser adecuados, tal que ayuden a comprender mejor el diagrama, preferentemente en la gama de colores pastel.
-\end{consigna}
+\figura 1
 
 \section{2. Identificación y análisis de los interesados}
 \label{sec:interesados}
@@ -204,40 +185,19 @@ Por ejemplo:
 \section{3. Propósito del proyecto}
 \label{sec:proposito}
 
-\begin{consigna}{red}
-¿Por qué se hace el proyecto? ¿Qué se quiere lograr? 
-
-Se recomienda que sea solo un párrafo que empiece diciendo ``El propósito de este proyecto es...''.
-\end{consigna}
+El propósito fundamental de este proyecto es implementar una solución innovadora de detección de infracciones vehiculares mediante el uso de Visión Artificial y seguimiento de objetos. Se busca mejorar significativamente la eficiencia y la precisión en la identificación de vehículos en infracción, reduciendo la dependencia de métodos manuales y optimizando la gestión del tráfico y la seguridad vial.
 
 \section{4. Alcance del proyecto}
 \label{sec:alcance}
 
-\begin{consigna}{red}
-¿Qué se incluye y que no se incluye en este proyecto?
+El alcance del proyecto abarca desde el desarrollo e implementación del software de detección de infracciones hasta la prestación de soporte técnico continuo. Esto incluye la adaptación y personalización de la solución a las necesidades específicas de la empresa cliente y la integración con su infraestructura existente. Sin embargo, es importante destacar que el proyecto no abarca la adquisición de hardware, como unidades de procesamiento de video o cámaras, ya que estos recursos son proporcionados por el cliente. Cualquier desarrollo o adaptación de hardware personalizado no forma parte del alcance del proyecto y debe ser gestionado por separado.
 
-Se refiere al trabajo a hacer para entregar el producto o resultado especificado. 
-
-Explicitar todo lo quede comprendido dentro del alcance del proyecto.
-
-Explicitar además todo lo que no quede incluido (``El presente proyecto no incluye...'')
-
-\end{consigna}
-
+La capacitación y formación del personal del cliente en el uso y mantenimiento de la solución no está incluida en el alcance. Sin embargo, se proporcionará documentación técnica para facilitar esta capacitación. Los gastos operativos continuos, como los costos de mantenimiento de hardware o los costos de electricidad asociados al hardware proporcionado por el cliente, no están cubiertos por el proyecto y son responsabilidad del cliente.
 
 \section{5. Supuestos del proyecto}
 \label{sec:supuestos}
 
-\begin{consigna}{red}
-``Para el desarrollo del presente proyecto se supone que: ...''
-
-\begin{itemize}
-	\item Supuesto 1
-	\item Supuesto 2...
-\end{itemize}
-
-Por ejemplo, se podrían incluir supuestos respecto a disponibilidad de tiempo y recursos humanos y materiales, sobre la factibilidad técnica de distintos aspectos del proyecto, sobre otras cuestiones que sean necesarias para el éxito del proyecto como condiciones macroeconómicas o reglamentarias.
-\end{consigna}
+El proyecto opera bajo la premisa de que la tecnología de Visión Artificial y seguimiento de objetos demostrará ser eficaz en la detección precisa de infracciones vehiculares. Se parte del supuesto de que los recursos de hardware proporcionados por el cliente serán compatibles con la implementación de la solución, como también que las unidades de grabación de videos cumplan con buena calidad de imágen para el correcto procesamiento. Además, se asume que el personal de programación y soporte estará disponible y comprometido durante todo el ciclo de vida del proyecto para garantizar su éxito continuo.
 
 \section{6. Requerimientos}
 \label{sec:requerimientos}
